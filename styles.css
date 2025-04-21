@@ -1,0 +1,63 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background-color: black;
+  color: whitesmoke;
+}
+
+
+#navbar {
+  list-style-type: none;
+  font-size: 18px;
+  background-color: rgb(162, 0, 255);
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+#navbar li {
+  display: inline;
+  margin: 0 15px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#navbar a:hover {
+  color: darkblue;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section div {
+  text-align: left;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+div form label {
+  padding: 10px;
+}
+button {
+  background-color: rgb(162, 0, 255);
+  font-size: 20px;
+  padding: 20px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
